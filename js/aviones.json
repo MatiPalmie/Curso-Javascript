@@ -1,0 +1,24 @@
+[
+    {
+        "id":"pa11",
+        "avion":"Pipper Pa-11",
+        "velocidad": 75,
+        "consumo": 12,
+        "img":"img/pa11.webp"
+    },
+    {
+        "id":"c150",
+        "avion":"Cessna C-150",
+        "velocidad": 120,
+        "consumo": 20,
+        "img":"img/c150.webp"
+    },
+
+    {
+        "id":"c172",
+        "avion":"Cessna C-172",
+        "velocidad": 140,
+        "consumo": 25,
+        "img":"img/c172.webp"
+    }
+]

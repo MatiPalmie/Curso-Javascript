@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.title {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(12, 112, 158);
+    color: azure;
+}
+
+.calc {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aviones,
+.custom,
+.dist {
+    margin-top: 30px;
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+
+label {
+    color: rgb(0, 132, 255);
+    font-size: 1.3rem;
+}
+
+#distance {
+    width: 25%;
+    height: 25px;
+    font-size: 1.3rem;
+}
+
+.btn,
+.cardButton {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btns,
+#btnEnd {
+    width: 25%;
+    height: 50px;
+    background-image: linear-gradient(rgb(0, 132, 255), rgb(0, 203, 253));
+    border-radius: 5%;
+    color: azure;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.resultado {
+    background-color: azure;
+    position: absolute;
+    width: 100%;
+    top: 37px;
+}
+
+.card {
+    position: absolute;
+    width: 100%;
+    top: 37px;
+    height: 1000px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    margin: 5px 0 10px 0;
+}
+
+.dist {
+    margin-top: 60px;
+}
+
+.clima {
+    position: absolute;
+    margin-left: 80%;
+    top: 55px;
+    color: azure;
+    display: flex;
+}
+
+.list {
+    list-style: none;
+    color: cornsilk;
+}
+ul{
+    list-style: none;
+}
+
+h1 {
+    padding-top: 3%;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: darkblue;
+}
+
+img {
+    max-width: 50%;
+}
+
+p {
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+strong {
+    color: rgb(0, 68, 170);
+}
